@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>Top Story: Senate Panel to recommend actions on national healthcare deficit, smoking epidemic</h1>
+        <h6>Curated by: Evolving Personalized Information Construct for subject P5748329DJL</h6>
+        <h6>Sponsored by: Googlezon - Your Souce for Everything</h6>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-12">
+        <div id="scatter">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-12">
+        <div class="article">
+          <h2>Moderate Correlations Discovered Between Poverty, Healthcare, Income, and Smoking</h2>
+          <p>Top statisticians at the National Institute of Health report that moderate direct correlations exist between 
+              poverty and lack of healthcare coverage, concluding analysis of 2014 census and Behavioral Risk Factor 
+              Surveillance System data. A moderate correlation of 0.524 was observed when considering data from all US states,
+              suggesting those in poverty are at greater risk of catastrophic health bills than the general population. </p>
+
+          <p>The study observed a correlation of 0.521 when comparing the poverty percentages of all states with their
+              percentage of smokers, suggesting a moderate direct correlation between poverty and smoking. When considering the 
+              increased health problems associated with smoking, those who smoke and lack health insurance are arguably exposed
+              to much greater risk of future financial burden. 
+          </p>
+
+          <p>A moderate negative correlation between median household income and lack of healthcare implies that as income
+              increases, the likelihood of not having healthcare decreases. This analysis did not distinguish between those
+              without the ability or access to purchase healthcare, versus those who are choosing to self-insure or tolerate the
+              risk of being uninsured due to their age or current health, or residents of states with government healthcare systems. 
+          </p>
+
+          <p>The strongest correlation of the study is a relatively strong negative relationship between median household income
+              and the percentage of smokers in a state's population. This implies that smoking may be a relatively strong economic
+              drain on the population, although we do not have specific information on the income of smokers in these states. Please
+              subscribe for more information to be published on the study data in the near future. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>Googlezon &copy;2019</p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>
